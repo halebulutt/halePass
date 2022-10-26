@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(rgb(97, 212, 155),#0d61b1);
+    height: 100vh;
+}
+
+.home-page-logo {
+    display: inline;
+}
+
+.home-page-logo img {
+    width: 50px;
+}
+
+.home {
+    padding: 0 !important;
+    display: inline-block;
+}
+
+.home li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.link  a {
+    color: rgb(72, 13, 212);
+}
+
+.home li a {
+    position: relative;
+    color: rgb(38, 14, 172);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.app-container {
+    display: flex;
+}
+
+.app-container-item {
+    padding: 1em;
+    margin: 0 auto;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.app-container-item h1 {
+    color: rgb(38, 14, 172);
+}
+
+.app-container-item th {
+    color: rgb(38, 14, 172);
+}
+
+.input-item {
+    background-color: rgba(125, 206, 166, 0.678);
+    border: none;
+}
+
+
+.login-section{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.login-section img{
+   width: 200px !important;
+   height: 200px !important;
+}
+
+.btn-success {
+    background-color: #4cad62a1;
+}
+
+#hidePassword {
+    display: none;
+}
+
+.settings-section a {
+    display: block;
+    padding: 20px;
+}
+
+#downloadlink {
+    color: rgb(38, 14, 172) !important;
+}
+
+#downloadlink:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
